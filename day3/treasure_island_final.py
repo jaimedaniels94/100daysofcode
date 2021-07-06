@@ -22,11 +22,11 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to treasure island.")
 print("Your mission is to find the bootey.")
-left_or_right = input("You're at a crossroads, would you like to go left or right? ")
+left_or_right = input("You're at a crossroads, would you like to go \"left\" or \"right\"? ").lower()
 if left_or_right == "left":
-  swim_or_walk = input("You arrive at a lake, walk along the shoreline or swim? Type walk or swim. ")
+  swim_or_walk = input("You arrive at a lake, \"walk\" along the shoreline or \"swim?\"? ").lower()
   if swim_or_walk == "walk":
-    red_yellow_blue = input("There are three doors. Red, yellow or blue? ")
+    red_yellow_blue = input("There are three doors. \"Red\", \"yellow\" or \"blue\"? ").lower()
     if red_yellow_blue == "yellow":
       print("You found the bootey! YOU WIN!")
     elif red_yellow_blue == "red":
